@@ -51,8 +51,8 @@ member:
 
 ### Team Polaris
   <div class="content has-text-left" style="margin-top: 5em;">
-  Leader & Art 김예린  
-  Game Design & script 김예빈  
+  Leader & Art 김예린<br>  
+  Game Design & script 김예빈<br>
   Programmer 권경현  
   
 </div>
