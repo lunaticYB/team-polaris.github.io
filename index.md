@@ -67,7 +67,7 @@ member:
 
 <div style="height: 6em;"></div>
 
-<hr style="width: 60%; margin: 0 auto 2em auto; border: 1px solid #ccc;">
+<hr style="width: 60%; margin: 0 auto 2em auto; border: 1px solid #000;">
 
 <div class="buttons" style="text-align: center;">
   <img src="./asset/img7.png">
