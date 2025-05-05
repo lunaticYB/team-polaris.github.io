@@ -43,7 +43,7 @@ member:
 </div>
 <div class="columns is-centered" style="margin-top: 3em;">
   <div class="column is-half">
-    <h4 class="title is-4">유</h4>
+    <h4 class="title is-4">🎮 유</h4>
     <p>
       어렸을 때부터 <strong>고전 라미아 어드벤처</strong>를 좋아하던 대학생.<br>
       현실 세계에 나타난 리리트를 처음엔 당황스럽게 여기지만,<br>
@@ -54,9 +54,8 @@ member:
   </div>
 
   <div class="column is-half">
-    <h4 class="title is-4">리리트</h4>
-    <p>
-      <strong>라미아 어드벤처</strong> 속 바빌렌 왕국을 지키는 용사.<br>
+    <h4 class="title is-4">🗡️ 리리트</h4>
+    <p><strong>라미아 어드벤처</strong> 속 바빌렌 왕국을 지키는 용사.<br>
       오랫동안 유의 플레이를 지켜보며 유대감을 쌓아왔습니다.<br>
       리메이크된 게임으로 인한 위기를 느끼고, 현실 세계로 나와<br>
       유와 모두를 지키기 위한 여정에 나섭니다.
