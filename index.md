@@ -18,7 +18,7 @@ member:
 
 
 <div class="buttons" style="text-align: center; margin-top: 2em;">
-  <img src="./asset/main.png">
+  <img src="./asset/main.png" style="margin-top: 2em;">
   
 </div>
 
