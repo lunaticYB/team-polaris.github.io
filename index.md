@@ -17,13 +17,13 @@ member:
 
 
 
-<div class="buttons" style="text-align: center; margin-top: 1em;">
+<div class="buttons" style="text-align: center; margin-top: 2em;">
   <img src="./asset/main.png">
   
 </div>
 
 ### Game Play
-<div class="buttons" style="text-align: center; margin-top: 2em;">
+<div class="buttons" style="text-align: center; margin-top: 3em;">
   <img src="./asset/img9.png">
   <img src="./asset/img4.png">
 
@@ -31,7 +31,7 @@ member:
 다양한 스테이지를 돌아다니며 퍼즐을 풀고, 캐릭터와 상호작용을 하며 스토리를 진행할 수 있습니다
 
 ### Concept art
-<div class="buttons" style="text-align: center; margin-top: 2em;">
+<div class="buttons" style="text-align: center; margin-top: 3em;">
   <img src="./asset/img5.png">
   <img src="./asset/img6.png">
   
@@ -39,7 +39,7 @@ member:
 
   
 
-<div class="buttons" style="text-align: center; margin-top: 2em;">
+<div class="buttons" style="text-align: center; margin-top: 3em;">
   <img src="./asset/img7.png">
   <img src="./asset/img10.png">
 </div>  
