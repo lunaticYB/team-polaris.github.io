@@ -49,8 +49,8 @@ member:
 게임 속 몰입감을 더하는 애니메이션 컷씬과 아름다운 맵들을 만나보세요
 
 
-### Team Polaris
-  <div class="content has-text-left" style="margin-top: 5em;">
+<div class="content has-text-left" style="margin-top: 7em;">
+  <strong>Team Polaris</strong><br>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
   Programmer 권경현  
