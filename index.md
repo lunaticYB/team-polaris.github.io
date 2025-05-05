@@ -11,7 +11,7 @@ member:
     <h3 class="title is-1">Remind Lamia</h3>
     <div class="content has-text-left" style="margin-top: 1.5em;">
       <p>
-        주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 다시 만나<br>
+        주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 만나<br>
         가상과 현실이 뒤섞인 세계를 모험하며, 위기에 빠진 세상을 구하는<br>
         3D 어드벤처 게임입니다.
       </p>
