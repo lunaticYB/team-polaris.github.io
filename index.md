@@ -8,7 +8,7 @@ member:
 
 <div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
-    <h3 class="title is-2">Remind Lamia</h3>
+    <h3 class="title is-1">Remind Lamia</h3>
     <div class="content has-text-left" style="margin-top: 1.5em;">
       <p>
         주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 다시 만나<br>
@@ -25,11 +25,11 @@ member:
 
 <!-- Game Play 섹션 앞에 마진 추가 -->
 ### Game Play
-<div class="buttons" style="text-align: center; margin-top: 4em;">
+<div class="buttons" style="text-align: center; margin-top: 5em;">
   <img src="./asset/img9.png">
   <img src="./asset/img4.png">
 </div>
-<div style="text-align: center; margin-top: 2em;">
+<div style="text-align: center; margin-top: 3em;">
   <p>다양한 스테이지를 돌아다니며 퍼즐을 풀고, 캐릭터와 상호작용을 하며 스토리를 진행할 수 있습니다</p>
 </div>
 
@@ -40,7 +40,7 @@ member:
   <img src="./asset/img6.png">
 </div>
 
-<div class="buttons" style="text-align: center; margin-top: 3em;">
+<div class="buttons" style="text-align: center; margin-top: 7em;">
   <img src="./asset/img7.png">
   <img src="./asset/img10.png">
 </div>
@@ -50,7 +50,7 @@ member:
 </div>
 
 <!-- Team Polaris 구간 앞에 마진 추가 -->
-<div class="content has-text-left" style="margin-top: 7em;">
+<div class="content has-text-left" style="margin-top: 10em;">
   <strong>Team Polaris</strong><br>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
