@@ -29,7 +29,7 @@ member:
   <img src="./asset/img9.png">
   <img src="./asset/img4.png">
 </div>
-<div style="text-align: center; margin-top: 3em;">
+<div style="text-align: center; margin-top: 5em;">
   <p>다양한 스테이지를 돌아다니며 퍼즐을 풀고, 캐릭터와 상호작용을 하며 스토리를 진행할 수 있습니다</p>
 </div>
 
@@ -52,7 +52,7 @@ member:
 </div>
 
 <!-- Team Polaris 구간 앞에 마진 추가 -->
-<div class="content has-text-left" style="margin-top: 7em;">
+<div class="content has-text-left" style="margin-top: 15em;">
   <h3 class="title is-3"><strong>Team Polaris</strong></h3>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
