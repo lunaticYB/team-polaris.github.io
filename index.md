@@ -40,7 +40,9 @@ member:
   <img src="./asset/img6.png">
 </div>
 
-<div class="buttons" style="text-align: center; margin-top: 7em;">
+<div style="height: 3em;"></div>
+
+<div class="buttons" style="text-align: center;">
   <img src="./asset/img7.png">
   <img src="./asset/img10.png">
 </div>
@@ -50,8 +52,8 @@ member:
 </div>
 
 <!-- Team Polaris 구간 앞에 마진 추가 -->
-<div class="content has-text-left" style="margin-top: 10em;">
-  <strong>Team Polaris</strong><br>
+<div class="content has-text-left" style="margin-top: 7em;">
+  <h3 class="title is-3"><strong>Team Polaris</strong></h3>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
   Programmer 권경현  
