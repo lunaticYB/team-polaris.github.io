@@ -8,13 +8,16 @@ member:
 
 <div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
-    <h2>Game Introduction</h2>
-    <div class="content has-text-justified">
-      "Remind Lamia"는 주인공인 유가 어렸을 때부터 좋아했던 게임 캐릭터인 리리트와 만나 모험을 떠나고, 위험에 빠진 세상을 구하는 어드벤쳐 게임입니다 
+    <h3 class="title is-3">Remind Lamia</h3>
+    <div class="content has-text-left" style="margin-top: 1.5em;">
+      <p>
+        주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 다시 만나<br>
+        가상과 현실이 뒤섞인 세계를 모험하며, 위기에 빠진 세상을 구하는<br>
+        3D 어드벤처 게임입니다.
+      </p>
     </div>
   </div>
 </div>
-
 
 
 <div class="buttons" style="text-align: center; margin-top: 2em;">
