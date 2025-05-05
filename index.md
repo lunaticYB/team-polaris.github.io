@@ -20,27 +20,27 @@ member:
 </div>
 
 <div class="buttons" style="text-align: center; margin-top: 2em;">
-  <img src="./asset/main.png" style="margin-top: 2em;">
+  <img src="./asset/main.png">
 </div>
 
 <!-- Game Play 섹션 앞에 마진 추가 -->
 ### Game Play
-<div class="buttons" style="text-align: center; margin-top: 5em;">
+<div class="buttons" style="text-align: center; margin-top: 2em;">
   <img src="./asset/img9.png">
   <img src="./asset/img4.png">
 </div>
-<div style="text-align: center; margin-top: 5em;">
+<div style="text-align: center; margin-top: 2em;">
   <p>다양한 스테이지를 돌아다니며 퍼즐을 풀고, 캐릭터와 상호작용을 하며 스토리를 진행할 수 있습니다</p>
 </div>
 
 <!-- Concept art 섹션 앞에 마진 추가 -->
 ### Concept art
-<div class="buttons" style="text-align: center; margin-top: 4em;">
+<div class="buttons" style="text-align: center; margin-top: 2em;">
   <img src="./asset/img5.png">
   <img src="./asset/img6.png">
 </div>
 
-<div style="height: 3em;"></div>
+<div style="height: 6em;"></div>
 
 <div class="buttons" style="text-align: center;">
   <img src="./asset/img7.png">
@@ -52,7 +52,7 @@ member:
 </div>
 
 <!-- Team Polaris 구간 앞에 마진 추가 -->
-<div class="content has-text-left" style="margin-top: 15em;">
+<div class="content has-text-right" style="margin-top: 15em;">
   <h3 class="title is-3"><strong>Team Polaris</strong></h3>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
