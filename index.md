@@ -52,7 +52,7 @@ member:
 </div>
 
 <!-- Team Polaris 구간 앞에 마진 추가 -->
-<div class="content has-text-right" style="margin-top: 15em;">
+<div class="content has-text-right" style="margin-top: 10em;">
   <h3 class="title is-3"><strong>Team Polaris</strong></h3>
   Leader & Art 김예린<br>  
   Game Design & script 김예빈<br>
