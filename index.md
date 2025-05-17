@@ -11,7 +11,7 @@ member:
     <h3 class="title is-1">Remind Lamia</h3>
     <div class="content has-text-left" style="margin-top: 1.5em;">
       <p>
-        주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 다시 만나<br>
+        주인공 <strong>'유'</strong>는 어릴 적부터 좋아했던 게임 속 캐릭터 <strong>'리리트'</strong>와 만나<br>
         가상과 현실이 뒤섞인 세계를 모험하며, 위기에 빠진 세상을 구하는<br>
         3D 어드벤처 게임입니다.
       </p>
@@ -43,7 +43,7 @@ member:
 </div>
 <div class="columns is-centered" style="margin-top: 3em;">
   <div class="column is-half">
-    <h4 class="title is-4">유</h4>
+    <h4 class="title is-4">🎮 유</h4>
     <p>
       어렸을 때부터 <strong>고전 라미아 어드벤처</strong>를 좋아하던 대학생.<br>
       현실 세계에 나타난 리리트를 처음엔 당황스럽게 여기지만,<br>
@@ -54,9 +54,8 @@ member:
   </div>
 
   <div class="column is-half">
-    <h4 class="title is-4">리리트</h4>
-    <p>
-      <strong>라미아 어드벤처</strong> 속 바빌렌 왕국을 지키는 용사.<br>
+    <h4 class="title is-4">🗡️ 리리트</h4>
+    <p><strong>라미아 어드벤처</strong> 속 바빌렌 왕국을 지키는 용사.<br>
       오랫동안 유의 플레이를 지켜보며 유대감을 쌓아왔습니다.<br>
       리메이크된 게임으로 인한 위기를 느끼고, 현실 세계로 나와<br>
       유와 모두를 지키기 위한 여정에 나섭니다.
