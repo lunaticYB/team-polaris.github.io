@@ -206,9 +206,20 @@ member:
 <script>
   function scrollCharacters(direction) {
     const container = document.getElementById('character-carousel');
-    const scrollAmount = 220; // 카드 하나 크기 + 여백
+    const scrollAmount = 220; // 카드 하나 너비 + 여백
     container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
   }
+
+  // 첫 번째 카드가 가운데 오도록 초기 스크롤 조정
+  window.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('character-carousel');
+    const firstCard = container.querySelector('.character-card');
+    if (firstCard) {
+      const cardWidth = firstCard.offsetWidth + 20; // 카드 너비 + gap
+      const centerOffset = (container.scrollWidth - container.clientWidth) / 2 - cardWidth;
+      container.scrollLeft = centerOffset;
+    }
+  });
 </script>
 
   <footer>
