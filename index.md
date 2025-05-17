@@ -178,53 +178,56 @@ member:
   </section>
 
   <section class="section">
-  <h2>Characters</h2>
-  <div style="position: relative;">
-    <button onclick="scrollCharacters(-1)" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 1;">&#9664;</button>
-    <div id="character-carousel" style="display: flex; overflow-x: auto; scroll-behavior: smooth;">
-      <div class="character-card">
-        <div class="character-image">[CHARACTER IMAGE]</div>
-        <h3>Character 1</h3>
-        <p>Brief character description goes here.</p>
+    <h2>Characters</h2>
+    <div id="character-carousel-container">
+      <div class="carousel-buttons">
+        <button class="left" onclick="scrollCharacters(-1)">&#9664;</button>
+        <button class="right" onclick="scrollCharacters(1)">&#9654;</button>
       </div>
-      <div class="character-card">
-        <div class="character-image">[CHARACTER IMAGE]</div>
-        <h3>Character 2</h3>
-        <p>Brief character description goes here.</p>
+      <div id="character-carousel">
+        <div class="character-card">
+          <div class="character-image">[CHARACTER IMAGE]</div>
+          <h3>Character 1</h3>
+          <p>Brief character description goes here.</p>
+        </div>
+        <div class="character-card">
+          <div class="character-image">[CHARACTER IMAGE]</div>
+          <h3>Character 2</h3>
+          <p>Brief character description goes here.</p>
+        </div>
+        <div class="character-card">
+          <div class="character-image">[CHARACTER IMAGE]</div>
+          <h3>Character 3</h3>
+          <p>Brief character description goes here.</p>
+        </div>
+        <!-- Add more cards as needed -->
       </div>
-      <div class="character-card">
-        <div class="character-image">[CHARACTER IMAGE]</div>
-        <h3>Character 3</h3>
-        <p>Brief character description goes here.</p>
-      </div>
-      <!-- 더 추가 가능 -->
     </div>
-    <button onclick="scrollCharacters(1)" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 1;">&#9654;</button>
-  </div>
-</section>
-
-<script>
-  function scrollCharacters(direction) {
-    const container = document.getElementById('character-carousel');
-    const scrollAmount = 220; // 카드 하나 너비 + 여백
-    container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
-  }
-
-  // 첫 번째 카드가 가운데 오도록 초기 스크롤 조정
-  window.addEventListener('DOMContentLoaded', () => {
-    const container = document.getElementById('character-carousel');
-    const firstCard = container.querySelector('.character-card');
-    if (firstCard) {
-      const cardWidth = firstCard.offsetWidth + 20; // 카드 너비 + gap
-      const centerOffset = (container.scrollWidth - container.clientWidth) / 2 - cardWidth;
-      container.scrollLeft = centerOffset;
-    }
-  });
-</script>
+  </section>
 
   <footer>
     &copy; 2025 Your Game Studio. All rights reserved.
   </footer>
+
+  <script>
+    function scrollCharacters(direction) {
+      const container = document.getElementById('character-carousel');
+      const card = container.querySelector('.character-card');
+      const cardWidth = card.offsetWidth + 20;
+      container.scrollBy({ left: cardWidth * direction, behavior: 'smooth' });
+    }
+
+    // Center the first card on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('character-carousel');
+      const card = container.querySelector('.character-card');
+      if (card) {
+        const cardWidth = card.offsetWidth + 20;
+        const containerCenter = container.scrollWidth / 2 - container.clientWidth / 2;
+        container.scrollLeft = containerCenter - cardWidth;
+      }
+    });
+  </script>
 </body>
 </html>
 
