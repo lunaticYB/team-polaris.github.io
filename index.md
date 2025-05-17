@@ -91,55 +91,29 @@ member:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Game Website</title>
+  <title>Characters Section</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
       background-color: #000;
       color: #fff;
-    }
-
-    header {
-      height: 100vh;
-      background: #111 url('HEADER_IMAGE.jpg') no-repeat center center / cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 4em;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 1.5em;
-      margin-top: 0.5em;
+      font-family: Arial, sans-serif;
     }
 
     .section {
       padding: 60px 20px;
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
     }
 
     .section h2 {
       font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-
-    .section p {
-      font-size: 1.2em;
-      line-height: 1.6em;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
     }
 
     .carousel-wrapper {
       position: relative;
-      overflow: hidden;
-      width: 100%;
       margin-top: 40px;
     }
 
@@ -148,16 +122,16 @@ member:
       gap: 20px;
       overflow-x: auto;
       scroll-behavior: smooth;
-      padding: 40px 0;
       scroll-snap-type: x mandatory;
+      padding: 40px 20px;
     }
 
     .character-card {
       flex: 0 0 auto;
       width: 200px;
       background-color: #222;
-      border-radius: 10px;
       padding: 20px;
+      border-radius: 10px;
       text-align: center;
       scroll-snap-align: center;
     }
@@ -165,73 +139,43 @@ member:
     .character-image {
       height: 200px;
       background-color: #333;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       border-radius: 5px;
       margin-bottom: 15px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #aaa;
-      font-size: 0.9em;
     }
 
     .carousel-button {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.5);
+      background-color: #000a;
       border: none;
-      color: #fff;
+      color: white;
       font-size: 2em;
+      padding: 10px;
       cursor: pointer;
-      padding: 10px 15px;
-      z-index: 10;
+      z-index: 1;
     }
 
     .carousel-button.left {
-      left: 10px;
+      left: 0;
     }
 
     .carousel-button.right {
-      right: 10px;
-    }
-
-    footer {
-      background-color: #111;
-      padding: 30px;
-      text-align: center;
-      color: #666;
-      font-size: 0.9em;
-    }
-
-    /* Hide scrollbar */
-    .carousel-container::-webkit-scrollbar {
-      display: none;
-    }
-    .carousel-container {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+      right: 0;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Game Title</h1>
-    <p>Welcome to the mysterious world of [Your Game]</p>
-  </header>
-
-  <section class="section">
-    <h2>About the Game</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec commodo mauris. Nulla facilisi. Curabitur vitae ante nec sem pretium ullamcorper.</p>
-    <div style="margin-top: 30px; height: 300px; background-color: #222; display: flex; justify-content: center; align-items: center; color: #aaa;">
-      [INSERT GAMEPLAY IMAGE HERE]
-    </div>
-  </section>
 
   <section class="section">
     <h2>Characters</h2>
     <div class="carousel-wrapper">
       <button class="carousel-button left" onclick="scrollCharacters(-1)">&#9664;</button>
-      <div id="character-carousel" class="carousel-container">
+      <div class="carousel-container" id="carousel">
         <div class="character-card">
           <div class="character-image">[CHARACTER 1 IMAGE]</div>
           <h3>Character 1</h3>
@@ -247,37 +191,34 @@ member:
           <h3>Character 3</h3>
           <p>Brief character description goes here.</p>
         </div>
-        <!-- Add more cards here -->
+        <!-- 추가 캐릭터 가능 -->
       </div>
       <button class="carousel-button right" onclick="scrollCharacters(1)">&#9654;</button>
     </div>
   </section>
 
-  <footer>
-    &copy; 2025 Your Game Studio. All rights reserved.
-  </footer>
-
   <script>
+    const scrollAmount = 220; // 카드 폭 + 간격
+
     function scrollCharacters(direction) {
-      const container = document.getElementById('character-carousel');
-      const card = container.querySelector('.character-card');
-      const cardWidth = card.offsetWidth + 20; // card + gap
-      container.scrollBy({ left: cardWidth * direction, behavior: 'smooth' });
+      const container = document.getElementById("carousel");
+      container.scrollBy({ left: scrollAmount * direction, behavior: "smooth" });
     }
 
-    // Center first card on load
-    window.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('character-carousel');
+    // 첫 번째 카드가 중앙에 오도록 로딩 시 자동 스크롤
+    window.addEventListener('load', () => {
+      const container = document.getElementById('carousel');
       const firstCard = container.querySelector('.character-card');
-      if (firstCard) {
-        const cardWidth = firstCard.offsetWidth + 20;
-        const containerCenter = (container.scrollWidth - container.clientWidth) / 2;
-        container.scrollLeft = cardWidth / 2;
-      }
+      const containerCenter = container.offsetWidth / 2;
+      const cardCenter = firstCard.offsetWidth / 2;
+      const offset = firstCard.offsetLeft - (containerCenter - cardCenter);
+      container.scrollTo({ left: offset, behavior: 'smooth' });
     });
   </script>
+
 </body>
 </html>
+
 
 
 
