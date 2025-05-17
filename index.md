@@ -247,7 +247,16 @@ member:
           <h3>Character 3</h3>
           <p>Brief character description goes here.</p>
         </div>
-        <!-- Add more cards here -->
+        <div class="character-card">
+          <div class="character-image">[CHARACTER 4 IMAGE]</div>
+          <h3>Character 4</h3>
+          <p>Brief character description goes here.</p>
+        </div>
+        <div class="character-card">
+          <div class="character-image">[CHARACTER 5 IMAGE]</div>
+          <h3>Character 5</h3>
+          <p>Brief character description goes here.</p>
+        </div>
       </div>
       <button class="carousel-button right" onclick="scrollCharacters(1)">&#9654;</button>
     </div>
