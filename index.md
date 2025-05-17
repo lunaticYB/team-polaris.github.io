@@ -179,29 +179,27 @@ member:
 
   <section class="section">
     <h2>Characters</h2>
-    <div id="character-carousel-container">
-      <div class="carousel-buttons">
-        <button class="left" onclick="scrollCharacters(-1)">&#9664;</button>
-        <button class="right" onclick="scrollCharacters(1)">&#9654;</button>
-      </div>
-      <div id="character-carousel">
+    <div class="carousel-wrapper">
+      <button class="carousel-button left" onclick="scrollCharacters(-1)">&#9664;</button>
+      <div id="character-carousel" class="carousel-container">
         <div class="character-card">
-          <div class="character-image">[CHARACTER IMAGE]</div>
+          <div class="character-image">[CHARACTER 1 IMAGE]</div>
           <h3>Character 1</h3>
           <p>Brief character description goes here.</p>
         </div>
         <div class="character-card">
-          <div class="character-image">[CHARACTER IMAGE]</div>
+          <div class="character-image">[CHARACTER 2 IMAGE]</div>
           <h3>Character 2</h3>
           <p>Brief character description goes here.</p>
         </div>
         <div class="character-card">
-          <div class="character-image">[CHARACTER IMAGE]</div>
+          <div class="character-image">[CHARACTER 3 IMAGE]</div>
           <h3>Character 3</h3>
           <p>Brief character description goes here.</p>
         </div>
-        <!-- Add more cards as needed -->
+        <!-- Add more cards here -->
       </div>
+      <button class="carousel-button right" onclick="scrollCharacters(1)">&#9654;</button>
     </div>
   </section>
 
@@ -213,18 +211,18 @@ member:
     function scrollCharacters(direction) {
       const container = document.getElementById('character-carousel');
       const card = container.querySelector('.character-card');
-      const cardWidth = card.offsetWidth + 20;
+      const cardWidth = card.offsetWidth + 20; // card + gap
       container.scrollBy({ left: cardWidth * direction, behavior: 'smooth' });
     }
 
-    // Center the first card on page load
+    // Center first card on load
     window.addEventListener('DOMContentLoaded', () => {
       const container = document.getElementById('character-carousel');
-      const card = container.querySelector('.character-card');
-      if (card) {
-        const cardWidth = card.offsetWidth + 20;
-        const containerCenter = container.scrollWidth / 2 - container.clientWidth / 2;
-        container.scrollLeft = containerCenter - cardWidth;
+      const firstCard = container.querySelector('.character-card');
+      if (firstCard) {
+        const cardWidth = firstCard.offsetWidth + 20;
+        const containerCenter = (container.scrollWidth - container.clientWidth) / 2;
+        container.scrollLeft = cardWidth / 2;
       }
     });
   </script>
