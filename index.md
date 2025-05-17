@@ -178,21 +178,38 @@ member:
   </section>
 
   <section class="section">
-    <h2>Characters</h2>
-    <div class="character-grid">
+  <h2>Characters</h2>
+  <div style="position: relative;">
+    <button onclick="scrollCharacters(-1)" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 1;">&#9664;</button>
+    <div id="character-carousel" style="display: flex; overflow-x: auto; scroll-behavior: smooth;">
       <div class="character-card">
         <div class="character-image">[CHARACTER IMAGE]</div>
-        <h3>Character Name</h3>
+        <h3>Character 1</h3>
         <p>Brief character description goes here.</p>
       </div>
       <div class="character-card">
         <div class="character-image">[CHARACTER IMAGE]</div>
-        <h3>Character Name</h3>
+        <h3>Character 2</h3>
         <p>Brief character description goes here.</p>
       </div>
-      <!-- Add more character cards as needed -->
+      <div class="character-card">
+        <div class="character-image">[CHARACTER IMAGE]</div>
+        <h3>Character 3</h3>
+        <p>Brief character description goes here.</p>
+      </div>
+      <!-- 더 추가 가능 -->
     </div>
-  </section>
+    <button onclick="scrollCharacters(1)" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 1;">&#9654;</button>
+  </div>
+</section>
+
+<script>
+  function scrollCharacters(direction) {
+    const container = document.getElementById('character-carousel');
+    const scrollAmount = 220; // 카드 하나 크기 + 여백
+    container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+  }
+</script>
 
   <footer>
     &copy; 2025 Your Game Studio. All rights reserved.
