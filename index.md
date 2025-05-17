@@ -89,8 +89,8 @@ member:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Game Website</title>
   <style>
     body {
@@ -99,6 +99,7 @@ member:
       background-color: #000;
       color: #fff;
     }
+
     header {
       height: 100vh;
       background: #111 url('HEADER_IMAGE.jpg') no-repeat center center / cover;
@@ -108,41 +109,59 @@ member:
       flex-direction: column;
       text-align: center;
     }
+
     header h1 {
       font-size: 4em;
       margin: 0;
     }
+
     header p {
       font-size: 1.5em;
       margin-top: 0.5em;
     }
+
     .section {
       padding: 60px 20px;
-      max-width: 1000px;
+      max-width: 1200px;
       margin: 0 auto;
     }
+
     .section h2 {
       font-size: 2.5em;
       margin-bottom: 20px;
     }
+
     .section p {
       font-size: 1.2em;
       line-height: 1.6em;
     }
-    .character-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+
+    .carousel-wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
       margin-top: 40px;
     }
+
+    .carousel-container {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding: 40px 0;
+      scroll-snap-type: x mandatory;
+    }
+
     .character-card {
+      flex: 0 0 auto;
+      width: 200px;
       background-color: #222;
       border-radius: 10px;
-      width: 200px;
       padding: 20px;
       text-align: center;
+      scroll-snap-align: center;
     }
+
     .character-image {
       height: 200px;
       background-color: #333;
@@ -154,12 +173,43 @@ member:
       color: #aaa;
       font-size: 0.9em;
     }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: #fff;
+      font-size: 2em;
+      cursor: pointer;
+      padding: 10px 15px;
+      z-index: 10;
+    }
+
+    .carousel-button.left {
+      left: 10px;
+    }
+
+    .carousel-button.right {
+      right: 10px;
+    }
+
     footer {
       background-color: #111;
       padding: 30px;
       text-align: center;
       color: #666;
       font-size: 0.9em;
+    }
+
+    /* Hide scrollbar */
+    .carousel-container::-webkit-scrollbar {
+      display: none;
+    }
+    .carousel-container {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
     }
   </style>
 </head>
