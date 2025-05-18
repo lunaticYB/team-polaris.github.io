@@ -108,7 +108,7 @@ member:
       align-items: center;
       flex-direction: column;
       text-align: center;
-      padding-bottom: 20px;
+      padding-bottom: 60px;
     }
 
     .header-text {
@@ -276,14 +276,25 @@ member:
 
     .team-section {
       padding: 40px 20px;
-      background-color: #111;
-      text-align: center;
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .team-section h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
     }
 
     .team-member {
       margin-bottom: 20px;
       font-size: 0.95em;
-      color: #aaa;
+      color: #555;
+    }
+
+    .team-member strong {
+      font-size: 1.2em; /* 이름 폰트 크기 키움 */
+      color: #555; /* 강조 효과 */
     }
 
     footer {
