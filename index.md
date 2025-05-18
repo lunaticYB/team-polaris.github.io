@@ -230,18 +230,16 @@ member:
       background-color: #222;
       padding: 20px;
       border-radius: 16px;
-      width: 240px;
+      width: 200px;
       flex-shrink: 0;
       text-align: center;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      margin-bottom: 20px;
     }
 
     .character-card img {
       width: 100%;
-      height: 260px;
-      object-fit: contain;
-      background-color: transparent;
+      height: 200px;
+      object-fit: cover;
       border-radius: 10px;
     }
 
@@ -259,7 +257,7 @@ member:
       display: flex;
       justify-content: center;
       gap: 20px;
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     .carousel-buttons button {
