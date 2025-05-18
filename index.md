@@ -128,11 +128,11 @@ member:
       color: white;
     }
 
-    .intro-rotated {
-      transform: rotate(-90deg);
-      font-weight: bold;
-      white-space: nowrap;
+    .intro-italic {
+      font-style: italic;
       font-size: 16px;
+      opacity: 0.9;
+      text-align: center;
     }
 
     .intro-text {
@@ -302,7 +302,7 @@ member:
       <h1>리마인드 라미아</h1>
     </div>
     <div class="intro-container">
-      <div class="intro-rotated"><strong>“게임 속 주인공과 함께, 현실과 가상을 구하는 모험이 시작된다.”</strong></div>
+      <div class="intro-italic"><strong>“게임 속 주인공과 함께, 현실과 가상을 구하는 모험이 시작된다.”</strong></div>
       <div class="intro-text">
         고전 게임인 <strong>라미아 어드벤쳐</strong>의 리메이크작 <strong>라미아 어드벤쳐 3D</strong>가 현대에서 큰 인기를 끌던 중,<br>
         게임을 플레이한 사람들이 차례로 실종되는 기묘한 사건이 벌어집니다.<br>
