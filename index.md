@@ -108,7 +108,7 @@ member:
       align-items: center;
       flex-direction: column;
       text-align: center;
-      padding-bottom: 60px;
+      padding-bottom: 100px;
     }
 
     .header-text {
@@ -289,12 +289,12 @@ member:
     .team-member {
       margin-bottom: 20px;
       font-size: 0.95em;
-      color: #555;
+      color: #ccc;
     }
 
     .team-member strong {
       font-size: 1.2em; /* 이름 폰트 크기 키움 */
-      color: #555; /* 강조 효과 */
+      color: #ccc; /* 강조 효과 */
     }
 
     footer {
@@ -331,7 +331,7 @@ member:
         <video src="asset/drawpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        리리트와 함께 오염된 게임 세계를 다시 되돌려주세요 [그림퍼즐]
+        유는 리리트와 함께 퍼즐과 비밀들로 가득찬 세계를 돌아다니게 됩니다
       </div>
     </div>
 
@@ -340,7 +340,8 @@ member:
         <video src="asset/jumpmap_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 찾아야합니다 [점프맵]
+        오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 조사합니다<br>
+        납치된 사람들이 게임 속 NPC의 모습으로 변하기 전에 그들의 흔적을 찾아주세요 
       </div>
     </div>
 
@@ -349,7 +350,8 @@ member:
         <video src="asset/pannelpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        현실과 게임 속 세상이 뒤섞인 가상의 공간에서 퍼즐을 진행하며 나아가게 됩니다 [패널보드]
+        현실과 게임 속 세상이 뒤섞인 가상의 공간에서<br>
+        퍼즐을 진행하며 나아가게 됩니다
       </div>
     </div>
 
@@ -358,7 +360,8 @@ member:
         <video src="asset/runandgun_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        리리트와 유를 방해하는 괴물을 조심하세요! 오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
+        리리트와 유를 방해하는 괴물을 조심하세요!<br>
+        오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
       </div>
     </div>
 
@@ -367,7 +370,8 @@ member:
         <video src="asset/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요. 최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
+        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요.<br>
+        최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
       </div>
     </div>
 
@@ -376,7 +380,7 @@ member:
         <video src="asset/OP_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        게임 속 아름다운 애니메이션과 컷씬을 확인하세요
+        게임 속 아름다운 애니메이션과 컷씬들을 즐겨주세요 
       </div>
     </div>
 
@@ -439,9 +443,9 @@ member:
 
   <section class="team-section">
     <h2>Team Members</h2>
-    <div class="team-member"><strong>ddd</strong> - 게임 기획 및 시스템 디자인 담당</div>
-    <div class="team-member"><strong>sss</strong> - 캐릭터 아트 및 애니메이션 담당</div>
-    <div class="team-member"><strong>aaa</strong> - 프로그래밍 및 구현 담당</div>
+    <div class="team-member"><strong>김예린</strong> - 아트, 애니메이션 담당</div>
+    <div class="team-member"><strong>김예빈</strong> - 게임 기획 담당</div>
+    <div class="team-member"><strong>권경현</strong> - 프로그래밍 및 구현 담당</div>
   </section>
 
   <footer>
