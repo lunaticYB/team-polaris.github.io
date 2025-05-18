@@ -166,7 +166,7 @@ member:
 
     .stage-card img {
       width: 100%;
-      max-width: 400px;
+      max-width: 500px;
       height: auto;
       display: block;
       margin: 0 auto;
@@ -330,38 +330,38 @@ member:
 
   <section class="section stage-section">
     <h2>STAGE</h2>
-    <p style="text-align: center; color: #555; margin-bottom: 2rem;">
+    <p style="text-align: center; color: #000; margin-bottom: 2rem;">
       리마인드 라미아는 유의 방부터 라미아 어드벤쳐 3D 게임 속 세상까지 7개의 스테이지들로 구성되어있습니다.<br>
-      현실과 가상의 맵들을 체험해보세요
+      현실과 가상을 넘나드는 맵들을 체험해보세요
     </p>
     
     <div class="stage-card">
       <img src="asset/stage_0.png" alt="Stage 0">
-      <p class="stage-description">스테이지 1 설명</p>
+      <p class="stage-description">Stage 1 유의 방</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_1.png" alt="Stage 1">
-      <p class="stage-description">스테이지 2 설명</p>
+      <p class="stage-description">Stage 2 도시</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_2.png" alt="Stage 2">
-      <p class="stage-description">스테이지 3 설명</p>
+      <p class="stage-description">Stage 3 가상의 도시</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_3.png" alt="Stage 3">
-      <p class="stage-description">스테이지 4 설명</p>
+      <p class="stage-description">Stage 4 학교</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_4.png" alt="Stage 4">
-      <p class="stage-description">스테이지 5 설명</p>
+      <p class="stage-description">Stage 5 가상의 학교</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_5.png" alt="Stage 5">
-      <p class="stage-description">스테이지 6 설명</p>
+      <p class="stage-description">Stage 6 라미아 어드벤쳐 3D</p>
     </div>
     <div class="stage-card">
       <img src="asset/stage_6.png" alt="Stage 6">
-      <p class="stage-description">스테이지 7 설명</p>
+      <p class="stage-description">Stage 7 LIA</p>
     </div>
   </section>
 
@@ -369,12 +369,12 @@ member:
     <h2>Characters</h2>
     <div class="carousel-container">
       <div class="character-carousel" id="characterCarousel">
-        <div class="character-card"><img src="asset/UUU.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>Character Name 2</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>Character Name 3</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>Character Name 4</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="asset/Pikmin.png" alt="Character 5"><h3>Character Name 5</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="asset/Monster.png" alt="Character 6"><h3>Character Name 6</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/UUU.png" alt="Character 1"><h3>유</h3><p>유는 게임 속 캐릭터 리리트와 함께 모험을 떠나는 리마인드 라미아의 주인공입니다</p></div>
+        <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>리리트</h3><p>고전 게임 라미아 어드벤쳐의 주인공인 리리트는 유가 있는 현실이 위험에 처한걸 느끼고 현실로 나와 유와 함께 모험을 하게됩니다</p></div>
+        <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>LIA</h3><p>LIA는 리메이크된 라미아 어드벤쳐 3D를 관리하는 AI였습니다. 어느 순간, LIA가 게임의 통제권을 갖게되고 게임을 플레이한 사람들이 납치되는 이상한 현상이 일어나게 됩니다. </p></div>
+        <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>버스정류장의 아저씨</h3><p>이 NPC는 언뜻보기에 평범해보이지만.. 관리형 AI의 도입으로 인해 게임회사에서 정리해고를 당한 슬픈 사연을 갖고있습니다.</p></div>
+        <div class="character-card"><img src="asset/Pikmin.png" alt="Character 5"><h3>미니 라미안</h3><p>원래는 라미아 어드벤쳐 3D 속 캐릭터 중 하나였지만, 실종된 사람들이 점점 미니 라미안들의 모습으로 변해가고 있습니다</p></div>
+        <div class="character-card"><img src="asset/Monster.png" alt="Character 6"><h3>도서관의 괴물</h3><p>오염된 라미아 어드벤쳐 3D 게임의 영향으로 학교 도서관에서 생겨난 끔찍한 존재입니다. 리리트와 유가 사람들을 구하는데 방해하게 됩니다</p></div>
       </div>
       <div class="carousel-buttons">
         <button onclick="moveCarousel(-1)">&larr;</button>
