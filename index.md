@@ -256,7 +256,7 @@ member:
 </head>
 <body>
   <header>
-    <img src="assets/main.png" alt="Game Title">
+    <img src="./assets/main.png" alt="Game Title">
   </header>
 
   <section class="section">
