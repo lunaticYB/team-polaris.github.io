@@ -388,7 +388,7 @@ member:
 
   <section class="section stage-section">
     <h2>STAGE</h2>
-    <p style="text-align: center; color: #000; margin-bottom: 2rem;">
+    <p style="text-align: center; color: white; margin-bottom: 2rem;">
       리마인드 라미아는 유의 방부터 라미아 어드벤쳐 3D 게임 속 세상까지 7개의 스테이지들로 구성되어있습니다.<br>
       현실과 가상을 넘나드는 맵들을 체험해보세요
     </p>
