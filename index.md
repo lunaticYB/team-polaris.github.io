@@ -321,20 +321,20 @@ member:
 
   <section class="section stage-section">
     <h2>Stages</h2>
-    <div class="stage-card"><img src="asset/stage1.jpg" alt="Stage 1"><p>스테이지 1 설명</p></div>
-    <div class="stage-card"><img src="asset/stage2.jpg" alt="Stage 2"><p>스테이지 2 설명</p></div>
-    <div class="stage-card"><img src="asset/stage3.jpg" alt="Stage 3"><p>스테이지 3 설명</p></div>
-    <div class="stage-card"><img src="asset/stage4.jpg" alt="Stage 4"><p>스테이지 4 설명</p></div>
-    <div class="stage-card"><img src="asset/stage5.jpg" alt="Stage 5"><p>스테이지 5 설명</p></div>
-    <div class="stage-card"><img src="asset/stage6.jpg" alt="Stage 6"><p>스테이지 6 설명</p></div>
-    <div class="stage-card"><img src="asset/stage7.jpg" alt="Stage 7"><p>스테이지 7 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_0.png" alt="Stage 0"><p>스테이지 1 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_1.png" alt="Stage 1"><p>스테이지 2 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_2.png" alt="Stage 2"><p>스테이지 3 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_3.png" alt="Stage 3"><p>스테이지 4 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_4.png" alt="Stage 4"><p>스테이지 5 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_5.png" alt="Stage 5"><p>스테이지 6 설명</p></div>
+    <div class="stage-card"><img src="asset/stage_6.png" alt="Stage 6"><p>스테이지 7 설명</p></div>
   </section>
 
   <section class="section" id="characters">
     <h2>Characters</h2>
     <div class="carousel-container">
       <div class="character-carousel" id="characterCarousel">
-        <div class="character-card"><img src="asset/U.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/UUU.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
         <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>Character Name 2</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
         <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>Character Name 3</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
         <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>Character Name 4</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
