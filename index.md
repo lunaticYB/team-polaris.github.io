@@ -190,7 +190,7 @@ member:
       background-color: #222;
       padding: 20px;
       border-radius: 16px;
-      width: 250px;
+      width: 320px;
       flex-shrink: 0;
       text-align: center;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -256,16 +256,15 @@ member:
 </head>
 <body>
   <header>
-    <img src="./assets/main.png" alt="Game Title">
+    <img src="./asset/main.png" alt="Game Title">
   </header>
 
   <section class="section">
     <h2>About the Game</h2>
 
-    <!-- 영상 태그 확인용 preload 추가 -->
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/drawpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/drawpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         리리트와 함께 오염된 게임 세계를 다시 되돌려주세요 [그림퍼즐]
@@ -274,7 +273,7 @@ member:
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/jumpmap_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/jumpmap_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 찾아야합니다 [점프맵]
@@ -283,7 +282,7 @@ member:
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/pannelpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/pannelpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         현실과 게임 속 세상이 뒤섞인 가상의 공간에서 퍼즐을 진행하며 나아가게 됩니다 [패널보드]
@@ -292,7 +291,7 @@ member:
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/runandgun_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/runandgun_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         리리트와 유를 방해하는 괴물을 조심하세요! 오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
@@ -301,7 +300,7 @@ member:
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요. 최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
@@ -310,35 +309,36 @@ member:
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="OP_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/OP_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         게임 속 아름다운 애니메이션과 컷씬을 확인하세요
       </div>
     </div>
+
   </section>
 
   <section class="section stage-section">
     <h2>Stages</h2>
-    <div class="stage-card"><img src="assets/stage1.jpg" alt="Stage 1"><p>스테이지 1 설명</p></div>
-    <div class="stage-card"><img src="assets/stage2.jpg" alt="Stage 2"><p>스테이지 2 설명</p></div>
-    <div class="stage-card"><img src="assets/stage3.jpg" alt="Stage 3"><p>스테이지 3 설명</p></div>
-    <div class="stage-card"><img src="assets/stage4.jpg" alt="Stage 4"><p>스테이지 4 설명</p></div>
-    <div class="stage-card"><img src="assets/stage5.jpg" alt="Stage 5"><p>스테이지 5 설명</p></div>
-    <div class="stage-card"><img src="assets/stage6.jpg" alt="Stage 6"><p>스테이지 6 설명</p></div>
-    <div class="stage-card"><img src="assets/stage7.jpg" alt="Stage 7"><p>스테이지 7 설명</p></div>
+    <div class="stage-card"><img src="asset/stage1.jpg" alt="Stage 1"><p>스테이지 1 설명</p></div>
+    <div class="stage-card"><img src="asset/stage2.jpg" alt="Stage 2"><p>스테이지 2 설명</p></div>
+    <div class="stage-card"><img src="asset/stage3.jpg" alt="Stage 3"><p>스테이지 3 설명</p></div>
+    <div class="stage-card"><img src="asset/stage4.jpg" alt="Stage 4"><p>스테이지 4 설명</p></div>
+    <div class="stage-card"><img src="asset/stage5.jpg" alt="Stage 5"><p>스테이지 5 설명</p></div>
+    <div class="stage-card"><img src="asset/stage6.jpg" alt="Stage 6"><p>스테이지 6 설명</p></div>
+    <div class="stage-card"><img src="asset/stage7.jpg" alt="Stage 7"><p>스테이지 7 설명</p></div>
   </section>
 
   <section class="section" id="characters">
     <h2>Characters</h2>
     <div class="carousel-container">
       <div class="character-carousel" id="characterCarousel">
-        <div class="character-card"><img src="assets/U.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="assets/lilit.png" alt="Character 2"><h3>Character Name 2</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="assets/LIA.png" alt="Character 3"><h3>Character Name 3</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="assets/BusMan.png" alt="Character 4"><h3>Character Name 4</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="assets/Pikmin.png" alt="Character 5"><h3>Character Name 5</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
-        <div class="character-card"><img src="assets/Monster.png" alt="Character 6"><h3>Character Name 6</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/U.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>Character Name 2</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>Character Name 3</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>Character Name 4</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/Pikmin.png" alt="Character 5"><h3>Character Name 5</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="asset/Monster.png" alt="Character 6"><h3>Character Name 6</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
       </div>
       <div class="carousel-buttons">
         <button onclick="moveCarousel(-1)">&larr;</button>
@@ -361,7 +361,7 @@ member:
   <script>
     let currentIndex = 0;
     const carousel = document.getElementById('characterCarousel');
-    const cardWidth = 280; // card width + margin
+    const cardWidth = 350; // 320px card + 30px gap
 
     function moveCarousel(direction) {
       const maxIndex = carousel.children.length - 1;
@@ -371,8 +371,10 @@ member:
       carousel.style.transform = `translateX(${-currentIndex * cardWidth}px)`;
     }
   </script>
+
 </body>
 </html>
+
 
 
 
