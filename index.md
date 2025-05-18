@@ -367,7 +367,13 @@ member:
 
   <section class="team-section">
     <h2>Team Polaris</h2>
-    <div class="team-member"><strong>김예린</strong> - 팀장, 3D/2D 디자인 기획 및 제작, 언리얼 컷씬 기획 및 총 제작, 캐릭터 디자인 ,애니메이팅 ,부스 기획<br>아트 작업 노션: https://www.notion.so/Remind-Lamia-1f79b79b4d3f80c59ff8fa18143d0068?pvs=4</div>
+    <div class="team-member">
+      <strong>김예린</strong> - 팀장, 3D/2D 디자인 기획 및 제작, 언리얼 컷씬 기획 및 총 제작, 캐릭터 디자인, 애니메이팅, 부스 기획<br>
+      아트 작업 노션: 
+      <a href="https://www.notion.so/Remind-Lamia-1f79b79b4d3f80c59ff8fa18143d0068?pvs=4" target="_blank">
+        https://www.notion.so/Remind-Lamia-1f79b79b4d3f80c59ff8fa18143d0068?pvs=4
+      </a>
+    </div>
     <div class="team-member"><strong>김예빈</strong> - 시나리오, 스크립트, 게임 컨셉, 맵 구조, 퍼즐/시스템 기획, 사운드, 연출, 컷씬, 트레일러 및 일부 영상 에셋 제작</div>
     <div class="team-member"><strong>권경현</strong> - 게임 클라이언트 개발(유니티)</div>
   </section>
