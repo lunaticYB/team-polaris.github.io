@@ -227,7 +227,7 @@ member:
     }
 
     .character-card {
-      background-color: transparent;
+      background-color: #222;
       padding: 20px;
       border-radius: 16px;
       width: 200px;
