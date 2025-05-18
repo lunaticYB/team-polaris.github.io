@@ -430,7 +430,7 @@ member:
     <h2>Characters</h2>
     <div class="carousel-container">
       <div class="character-carousel" id="characterCarousel">
-        <div class="character-card"><img src="asset/UUU.png" alt="Character 1"><h3>유</h3><p>유는 게임 속 캐릭터 리리트와 함께 모험을 떠나는 리마인드 라미아의 주인공입니다</p></div>
+        <div class="character-card"><img src="asset/UUUU.png" alt="Character 1"><h3>유</h3><p>유는 게임 속 캐릭터 리리트와 함께 모험을 떠나는 리마인드 라미아의 주인공입니다</p></div>
         <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>리리트</h3><p>고전 게임 라미아 어드벤쳐의 주인공인 리리트는 유가 있는 현실이 위험에 처한걸 느끼고 현실로 나와 유와 함께 모험을 하게됩니다</p></div>
         <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>LIA</h3><p>LIA는 리메이크된 라미아 어드벤쳐 3D를 관리하는 AI였습니다. 어느 순간, LIA가 게임의 통제권을 갖게되고 게임을 플레이한 사람들이 납치되는 이상한 현상이 일어나게 됩니다. </p></div>
         <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>버스정류장의 아저씨</h3><p>이 NPC는 언뜻보기에 평범해보이지만.. 관리형 AI의 도입으로 인해 게임회사에서 정리해고를 당한 슬픈 사연을 갖고있습니다.</p></div>
