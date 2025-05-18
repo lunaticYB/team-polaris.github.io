@@ -445,14 +445,14 @@ member:
   </section>
 
   <section class="team-section">
-    <h2>Team Members</h2>
+    <h2>Team Polaris</h2>
     <div class="team-member"><strong>김예린</strong> - 팀장, 3D/2D 디자인 기획 및 제작, 언리얼 컷씬 기획 및 총 제작, 캐릭터 디자인 ,애니메이팅 ,부스 기획</div>
     <div class="team-member"><strong>김예빈</strong> - 시나리오, 스크립트, 게임 컨셉, 맵 구조, 퍼즐/시스템 기획, 사운드, 연출, 컷씬, 트레일러 및 일부 영상 에셋 제작</div>
     <div class="team-member"><strong>권경현</strong> - 유니티 프로그래밍 및 구현 담당</div>
   </section>
 
   <footer>
-    &copy; 2025 Your Game Studio. All rights reserved.
+    &copy; 2025 Team Polaris. All rights reserved.
   </footer>
 
   <script>
