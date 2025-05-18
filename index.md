@@ -160,14 +160,23 @@ member:
     }
 
     .stage-card {
-      margin-bottom: 40px;
+      margin-bottom: 2rem;
       text-align: center;
     }
 
     .stage-card img {
-      width: 80%;
-      max-width: 600px;
-      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+
+    .stage-description {
+      color: rgba(100, 100, 100, 0.7);
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
     }
 
     .stage-card p {
@@ -320,14 +329,40 @@ member:
   </section>
 
   <section class="section stage-section">
-    <h2>Stages</h2>
-    <div class="stage-card"><img src="asset/stage_0.png" alt="Stage 0"><p>스테이지 1 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_1.png" alt="Stage 1"><p>스테이지 2 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_2.png" alt="Stage 2"><p>스테이지 3 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_3.png" alt="Stage 3"><p>스테이지 4 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_4.png" alt="Stage 4"><p>스테이지 5 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_5.png" alt="Stage 5"><p>스테이지 6 설명</p></div>
-    <div class="stage-card"><img src="asset/stage_6.png" alt="Stage 6"><p>스테이지 7 설명</p></div>
+    <h2>STAGE</h2>
+    <p style="text-align: center; color: #555; margin-bottom: 2rem;">
+      리마인드 라미아는 유의 방부터 라미아 어드벤쳐 3D 게임 속 세상까지 7개의 스테이지들로 구성되어있습니다.<br>
+      현실과 가상의 맵들을 체험해보세요
+    </p>
+    
+    <div class="stage-card">
+      <img src="asset/stage_0.png" alt="Stage 0">
+      <p class="stage-description">스테이지 1 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_1.png" alt="Stage 1">
+      <p class="stage-description">스테이지 2 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_2.png" alt="Stage 2">
+      <p class="stage-description">스테이지 3 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_3.png" alt="Stage 3">
+      <p class="stage-description">스테이지 4 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_4.png" alt="Stage 4">
+      <p class="stage-description">스테이지 5 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_5.png" alt="Stage 5">
+      <p class="stage-description">스테이지 6 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="asset/stage_6.png" alt="Stage 6">
+      <p class="stage-description">스테이지 7 설명</p>
+    </div>
   </section>
 
   <section class="section" id="characters">
