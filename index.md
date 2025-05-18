@@ -190,7 +190,7 @@ member:
       background-color: #222;
       padding: 20px;
       border-radius: 16px;
-      width: 320px;
+      width: 200px;
       flex-shrink: 0;
       text-align: center;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -198,7 +198,8 @@ member:
 
     .character-card img {
       width: 100%;
-      height: auto;
+      height: 200px;
+      object-fit: cover;
       border-radius: 10px;
     }
 
@@ -361,7 +362,7 @@ member:
   <script>
     let currentIndex = 0;
     const carousel = document.getElementById('characterCarousel');
-    const cardWidth = 350; // 320px card + 30px gap
+    const cardWidth = 230; // 320px card + 30px gap
 
     function moveCarousel(direction) {
       const maxIndex = carousel.children.length - 1;
