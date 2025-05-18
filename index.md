@@ -335,7 +335,7 @@ member:
         <video src="asset/drawpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        유는 리리트와 함께 퍼즐과 비밀들로 가득찬 세계를 돌아다니게 됩니다
+        유는 리리트와 함께 퍼즐과 비밀들로 가득찬 세계를<br>돌아다니게 됩니다
       </div>
     </div>
 
@@ -375,7 +375,7 @@ member:
       </div>
       <div class="video-description">
         실종된 사람들의 행방을 쫓아 모든 일의 배후를 조사하세요.<br>
-        최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
+        최종보스 LIA를 무찔러 납치된 사람들을<br>리리트와 함께 구해야 합니다
       </div>
     </div>
 
