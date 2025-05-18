@@ -371,7 +371,7 @@ member:
 
     <div class="video-row">
       <div class="video-container">
-        <video src="asset/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <video src="asset/bullethell_2.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
         실종된 사람들의 행방을 쫓아 모든 일의 배후를 조사하세요.<br>
