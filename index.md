@@ -175,12 +175,15 @@ member:
       font-size: 1.1em;
     }
 
-    .character-container {
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .character-carousel {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      transition: transform 0.5s ease;
       gap: 30px;
-      margin-top: 40px;
     }
 
     .character-card {
@@ -188,25 +191,46 @@ member:
       padding: 20px;
       border-radius: 16px;
       width: 250px;
+      flex-shrink: 0;
       text-align: center;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      transition: transform 0.3s;
     }
-    .character-card:hover {
-      transform: translateY(-10px);
-    }
+
     .character-card img {
       width: 100%;
       height: auto;
       border-radius: 10px;
     }
+
     .character-card h3 {
       margin: 15px 0 10px;
       font-size: 1.1em;
     }
+
     .character-card p {
       font-size: 0.9em;
       color: #ccc;
+    }
+
+    .carousel-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .carousel-buttons button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .carousel-buttons button:hover {
+      background-color: #555;
     }
 
     .team-section {
@@ -237,153 +261,119 @@ member:
 
   <section class="section">
     <h2>About the Game</h2>
-    
+
+    <!-- 영상 태그 확인용 preload 추가 -->
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/drawpuzzle_1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/drawpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        리리트와 함께 오염된 게임 세계를 다시 되돌려주세요
-        [그림퍼즐]
+        리리트와 함께 오염된 게임 세계를 다시 되돌려주세요 [그림퍼즐]
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/jumpmap_1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/jumpmap_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 찾아야합니다 
-        [점프맵]
+        오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 찾아야합니다 [점프맵]
       </div>
     </div>
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/pannelpuzzle_1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/pannelpuzzle_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        현실과 게임 속 세상이 뒤섞인 가상의 공간에서 퍼즐을 진행하며 나아가게 됩니다 
-        [패널보드]
+        현실과 게임 속 세상이 뒤섞인 가상의 공간에서 퍼즐을 진행하며 나아가게 됩니다 [패널보드]
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/runandgun_1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/runandgun_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        리리트와 유를 방해하는 괴물을 조심하세요! 
-        오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
+        리리트와 유를 방해하는 괴물을 조심하세요! 오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
       </div>
     </div>
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/bullethell_1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요 
-        최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
+        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요. 최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="OP_1.mp4" autoplay muted loop playsinline></video>
+        <video src="OP_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        게임 속 아름다운 애니메이션과 컷씬을 확인하세요 
+        게임 속 아름다운 애니메이션과 컷씬을 확인하세요
       </div>
     </div>
   </section>
 
   <section class="section stage-section">
     <h2>Stages</h2>
-    <div class="stage-card">
-      <img src="assets/stage1.jpg" alt="Stage 1">
-      <p>스테이지 1 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage2.jpg" alt="Stage 2">
-      <p>스테이지 2 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage3.jpg" alt="Stage 3">
-      <p>스테이지 3 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage4.jpg" alt="Stage 4">
-      <p>스테이지 4 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage5.jpg" alt="Stage 5">
-      <p>스테이지 5 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage6.jpg" alt="Stage 6">
-      <p>스테이지 6 설명</p>
-    </div>
-    <div class="stage-card">
-      <img src="assets/stage7.jpg" alt="Stage 7">
-      <p>스테이지 7 설명</p>
-    </div>
+    <div class="stage-card"><img src="assets/stage1.jpg" alt="Stage 1"><p>스테이지 1 설명</p></div>
+    <div class="stage-card"><img src="assets/stage2.jpg" alt="Stage 2"><p>스테이지 2 설명</p></div>
+    <div class="stage-card"><img src="assets/stage3.jpg" alt="Stage 3"><p>스테이지 3 설명</p></div>
+    <div class="stage-card"><img src="assets/stage4.jpg" alt="Stage 4"><p>스테이지 4 설명</p></div>
+    <div class="stage-card"><img src="assets/stage5.jpg" alt="Stage 5"><p>스테이지 5 설명</p></div>
+    <div class="stage-card"><img src="assets/stage6.jpg" alt="Stage 6"><p>스테이지 6 설명</p></div>
+    <div class="stage-card"><img src="assets/stage7.jpg" alt="Stage 7"><p>스테이지 7 설명</p></div>
   </section>
 
   <section class="section" id="characters">
     <h2>Characters</h2>
-    <div class="character-container">
-      <div class="character-card">
-        <img src="assets/U.png" alt="Character 1">
-        <h3>Character Name 1</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+    <div class="carousel-container">
+      <div class="character-carousel" id="characterCarousel">
+        <div class="character-card"><img src="assets/U.png" alt="Character 1"><h3>Character Name 1</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="assets/lilit.png" alt="Character 2"><h3>Character Name 2</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="assets/LIA.png" alt="Character 3"><h3>Character Name 3</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="assets/BusMan.png" alt="Character 4"><h3>Character Name 4</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="assets/Pikmin.png" alt="Character 5"><h3>Character Name 5</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
+        <div class="character-card"><img src="assets/Monster.png" alt="Character 6"><h3>Character Name 6</h3><p>설명 1줄~3줄 정도의 캐릭터 소개.</p></div>
       </div>
-      <div class="character-card">
-        <img src="assets/lilit.png" alt="Character 2">
-        <h3>Character Name 2</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
-      </div>
-      <div class="character-card">
-        <img src="assets/LIA.png" alt="Character 3">
-        <h3>Character Name 3</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
-      </div>
-      <div class="character-card">
-        <img src="assets/BusMan.png" alt="Character 4">
-        <h3>Character Name 4</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
-      </div>
-      <div class="character-card">
-        <img src="assets/Pikmin.png" alt="Character 5">
-        <h3>Character Name 5</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
-      </div>
-      <div class="character-card">
-        <img src="assets/Monster.png" alt="Character 6">
-        <h3>Character Name 6</h3>
-        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      <div class="carousel-buttons">
+        <button onclick="moveCarousel(-1)">&larr;</button>
+        <button onclick="moveCarousel(1)">&rarr;</button>
       </div>
     </div>
   </section>
 
   <section class="team-section">
     <h2>Team Members</h2>
-    <div class="team-member">
-      <strong>ddd</strong> - 게임 기획 및 시스템 디자인 담당
-    </div>
-    <div class="team-member">
-      <strong>sss</strong> - 캐릭터 아트 및 애니메이션 담당
-    </div>
-    <div class="team-member">
-      <strong>aaa</strong> - 프로그래밍 및 구현 담당
-    </div>
+    <div class="team-member"><strong>ddd</strong> - 게임 기획 및 시스템 디자인 담당</div>
+    <div class="team-member"><strong>sss</strong> - 캐릭터 아트 및 애니메이션 담당</div>
+    <div class="team-member"><strong>aaa</strong> - 프로그래밍 및 구현 담당</div>
   </section>
 
   <footer>
     &copy; 2025 Your Game Studio. All rights reserved.
   </footer>
+
+  <script>
+    let currentIndex = 0;
+    const carousel = document.getElementById('characterCarousel');
+    const cardWidth = 280; // card width + margin
+
+    function moveCarousel(direction) {
+      const maxIndex = carousel.children.length - 1;
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = 0;
+      if (currentIndex > maxIndex - 2) currentIndex = maxIndex - 2;
+      carousel.style.transform = `translateX(${-currentIndex * cardWidth}px)`;
+    }
+  </script>
 </body>
 </html>
+
 
 
 
