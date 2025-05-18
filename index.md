@@ -87,7 +87,7 @@ member:
 </div> --> 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -102,7 +102,7 @@ member:
 
     header {
       height: 100vh;
-      background: #111 url('HEADER_IMAGE.jpg') no-repeat center center / cover;
+      background: #000;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -110,14 +110,9 @@ member:
       text-align: center;
     }
 
-    header h1 {
-      font-size: 4em;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 1.5em;
-      margin-top: 0.5em;
+    header img {
+      max-width: 90%;
+      height: auto;
     }
 
     .section {
@@ -131,68 +126,65 @@ member:
       margin-bottom: 20px;
     }
 
-    .section p {
-      font-size: 1.2em;
+    .video-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 60px;
+      align-items: center;
+    }
+
+    .video-row.even {
+      flex-direction: row-reverse;
+    }
+
+    .video-container {
+      flex: 1 1 45%;
+    }
+
+    .video-container video {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .video-description {
+      flex: 1 1 45%;
+      font-size: 1.1em;
       line-height: 1.6em;
     }
 
-    .carousel-wrapper {
-      position: relative;
-      overflow: hidden;
-      width: 100%;
-      margin-top: 40px;
-    }
-
-    .carousel-container {
+    .stage-section {
       display: flex;
-      gap: 20px;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      padding: 40px 0;
-      scroll-snap-type: x mandatory;
-    }
-
-    .character-card {
-      flex: 0 0 auto;
-      width: 200px;
-      background-color: #222;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-      scroll-snap-align: center;
-    }
-
-    .character-image {
-      height: 200px;
-      background-color: #333;
-      border-radius: 5px;
-      margin-bottom: 15px;
-      display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+    }
+
+    .stage-card {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .stage-card img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .stage-card p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    .team-section {
+      padding: 40px 20px;
+      background-color: #111;
+      text-align: center;
+    }
+
+    .team-member {
+      margin-bottom: 20px;
+      font-size: 0.95em;
       color: #aaa;
-      font-size: 0.9em;
-    }
-
-    .carousel-button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.5);
-      border: none;
-      color: #fff;
-      font-size: 2em;
-      cursor: pointer;
-      padding: 10px 15px;
-      z-index: 10;
-    }
-
-    .carousel-button.left {
-      left: 10px;
-    }
-
-    .carousel-button.right {
-      right: 10px;
     }
 
     footer {
@@ -202,91 +194,122 @@ member:
       color: #666;
       font-size: 0.9em;
     }
-
-    /* Hide scrollbar */
-    .carousel-container::-webkit-scrollbar {
-      display: none;
-    }
-    .carousel-container {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Game Title</h1>
-    <p>Welcome to the mysterious world of [Your Game]</p>
+    <img src="assets/title-image.png" alt="Game Title">
   </header>
 
   <section class="section">
     <h2>About the Game</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec commodo mauris. Nulla facilisi. Curabitur vitae ante nec sem pretium ullamcorper.</p>
-    <div style="margin-top: 30px; height: 300px; background-color: #222; display: flex; justify-content: center; align-items: center; color: #aaa;">
-      [INSERT GAMEPLAY IMAGE HERE]
+    
+    <div class="video-row">
+      <div class="video-container">
+        <video src="assets/video1.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 1에 대한 설명을 여기에 적어주세요.
+      </div>
+    </div>
+
+    <div class="video-row even">
+      <div class="video-container">
+        <video src="assets/video2.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 2에 대한 설명을 여기에 적어주세요.
+      </div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-container">
+        <video src="assets/video3.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 3에 대한 설명을 여기에 적어주세요.
+      </div>
+    </div>
+
+    <div class="video-row even">
+      <div class="video-container">
+        <video src="assets/video4.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 4에 대한 설명을 여기에 적어주세요.
+      </div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-container">
+        <video src="assets/video5.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 5에 대한 설명을 여기에 적어주세요.
+      </div>
+    </div>
+
+    <div class="video-row even">
+      <div class="video-container">
+        <video src="assets/video6.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-description">
+        영상 6에 대한 설명을 여기에 적어주세요.
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <h2>Characters</h2>
-    <div class="carousel-wrapper">
-      <button class="carousel-button left" onclick="scrollCharacters(-1)">&#9664;</button>
-      <div id="character-carousel" class="carousel-container">
-        <div class="character-card">
-          <div class="character-image">[CHARACTER 1 IMAGE]</div>
-          <h3>Character 1</h3>
-          <p>Brief character description goes here.</p>
-        </div>
-        <div class="character-card">
-          <div class="character-image">[CHARACTER 2 IMAGE]</div>
-          <h3>Character 2</h3>
-          <p>Brief character description goes here.</p>
-        </div>
-        <div class="character-card">
-          <div class="character-image">[CHARACTER 3 IMAGE]</div>
-          <h3>Character 3</h3>
-          <p>Brief character description goes here.</p>
-        </div>
-        <div class="character-card">
-          <div class="character-image">[CHARACTER 4 IMAGE]</div>
-          <h3>Character 4</h3>
-          <p>Brief character description goes here.</p>
-        </div>
-        <div class="character-card">
-          <div class="character-image">[CHARACTER 5 IMAGE]</div>
-          <h3>Character 5</h3>
-          <p>Brief character description goes here.</p>
-        </div>
-      </div>
-      <button class="carousel-button right" onclick="scrollCharacters(1)">&#9654;</button>
+  <section class="section stage-section">
+    <h2>Stages</h2>
+    <div class="stage-card">
+      <img src="assets/stage1.jpg" alt="Stage 1">
+      <p>스테이지 1 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage2.jpg" alt="Stage 2">
+      <p>스테이지 2 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage3.jpg" alt="Stage 3">
+      <p>스테이지 3 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage4.jpg" alt="Stage 4">
+      <p>스테이지 4 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage5.jpg" alt="Stage 5">
+      <p>스테이지 5 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage6.jpg" alt="Stage 6">
+      <p>스테이지 6 설명</p>
+    </div>
+    <div class="stage-card">
+      <img src="assets/stage7.jpg" alt="Stage 7">
+      <p>스테이지 7 설명</p>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <h2>Team Members</h2>
+    <div class="team-member">
+      <strong>ddd</strong> - 게임 기획 및 시스템 디자인 담당
+    </div>
+    <div class="team-member">
+      <strong>sss</strong> - 캐릭터 아트 및 애니메이션 담당
+    </div>
+    <div class="team-member">
+      <strong>aaa</strong> - 프로그래밍 및 구현 담당
     </div>
   </section>
 
   <footer>
     &copy; 2025 Your Game Studio. All rights reserved.
   </footer>
-
-  <script>
-    function scrollCharacters(direction) {
-      const container = document.getElementById('character-carousel');
-      const card = container.querySelector('.character-card');
-      const cardWidth = card.offsetWidth + 20; // card + gap
-      container.scrollBy({ left: cardWidth * direction, behavior: 'smooth' });
-    }
-
-    // Center first card on load
-    window.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('character-carousel');
-      const firstCard = container.querySelector('.character-card');
-      if (firstCard) {
-        const cardWidth = firstCard.offsetWidth + 20;
-        const containerCenter = (container.scrollWidth - container.clientWidth) / 2;
-        container.scrollLeft = cardWidth / 2;
-      }
-    });
-  </script>
 </body>
 </html>
+
 
 
 
