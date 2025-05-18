@@ -175,6 +175,40 @@ member:
       font-size: 1.1em;
     }
 
+    .character-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .character-card {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 16px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .character-card:hover {
+      transform: translateY(-10px);
+    }
+    .character-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .character-card h3 {
+      margin: 15px 0 10px;
+      font-size: 1.1em;
+    }
+    .character-card p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
     .team-section {
       padding: 40px 20px;
       background-color: #111;
@@ -198,7 +232,7 @@ member:
 </head>
 <body>
   <header>
-    <img src="assets/title-image.png" alt="Game Title">
+    <img src="assets/main.png" alt="Game Title">
   </header>
 
   <section class="section">
@@ -206,55 +240,60 @@ member:
     
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/video1.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/drawpuzzle_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 1에 대한 설명을 여기에 적어주세요.
+        리리트와 함께 오염된 게임 세계를 다시 되돌려주세요
+        [그림퍼즐]
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/video2.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/jumpmap_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 2에 대한 설명을 여기에 적어주세요.
+        오염된 라미아 어드벤쳐 3D 게임의 영향으로 인해 납치된 사람들의 행방을 찾아야합니다 
+        [점프맵]
       </div>
     </div>
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/video3.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/pannelpuzzle_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 3에 대한 설명을 여기에 적어주세요.
+        현실과 게임 속 세상이 뒤섞인 가상의 공간에서 퍼즐을 진행하며 나아가게 됩니다 
+        [패널보드]
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/video4.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/runandgun_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 4에 대한 설명을 여기에 적어주세요.
+        리리트와 유를 방해하는 괴물을 조심하세요! 
+        오염된 게임 속 세상의 영향이 커질수록 현실과 가상의 경계가 점점 무너집니다
       </div>
     </div>
 
     <div class="video-row">
       <div class="video-container">
-        <video src="assets/video5.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/bullethell_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 5에 대한 설명을 여기에 적어주세요.
+        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요 
+        최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
       </div>
     </div>
 
     <div class="video-row even">
       <div class="video-container">
-        <video src="assets/video6.mp4" autoplay muted loop playsinline></video>
+        <video src="OP_1.mp4" autoplay muted loop playsinline></video>
       </div>
       <div class="video-description">
-        영상 6에 대한 설명을 여기에 적어주세요.
+        게임 속 아름다운 애니메이션과 컷씬을 확인하세요 
       </div>
     </div>
   </section>
@@ -288,6 +327,42 @@ member:
     <div class="stage-card">
       <img src="assets/stage7.jpg" alt="Stage 7">
       <p>스테이지 7 설명</p>
+    </div>
+  </section>
+
+  <section class="section" id="characters">
+    <h2>Characters</h2>
+    <div class="character-container">
+      <div class="character-card">
+        <img src="assets/U.png" alt="Character 1">
+        <h3>Character Name 1</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
+      <div class="character-card">
+        <img src="assets/lilit.png" alt="Character 2">
+        <h3>Character Name 2</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
+      <div class="character-card">
+        <img src="assets/LIA.png" alt="Character 3">
+        <h3>Character Name 3</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
+      <div class="character-card">
+        <img src="assets/BusMan.png" alt="Character 4">
+        <h3>Character Name 4</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
+      <div class="character-card">
+        <img src="assets/Pikmin.png" alt="Character 5">
+        <h3>Character Name 5</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
+      <div class="character-card">
+        <img src="assets/Monster.png" alt="Character 6">
+        <h3>Character Name 6</h3>
+        <p>설명 1줄~3줄 정도의 캐릭터 소개.</p>
+      </div>
     </div>
   </section>
 
