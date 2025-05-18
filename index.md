@@ -108,7 +108,7 @@ member:
       align-items: center;
       flex-direction: column;
       text-align: center;
-      padding-bottom: 100px;
+      padding-bottom: 200px;
     }
 
     .header-text {
@@ -153,7 +153,7 @@ member:
     }
 
     .section h2 {
-      font-size: 2.5em;
+      font-size: 2em;
       margin-bottom: 20px;
     }
 
@@ -197,7 +197,7 @@ member:
 
     .stage-card img {
       width: 100%;
-      max-width: 500px;
+      max-width: 700px;
       height: auto;
       display: block;
       margin: 0 auto;
