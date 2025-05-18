@@ -260,6 +260,7 @@ member:
       justify-content: center;
       gap: 20px;
       margin-top: 40px;
+      min-height: 60px;
     }
 
     .carousel-buttons button {
