@@ -374,7 +374,7 @@ member:
         <video src="asset/bullethell_1.mp4" autoplay muted loop playsinline preload="auto"></video>
       </div>
       <div class="video-description">
-        실종된 사람들의 행방을 좇아 모든 일의 배후를 조사하세요.<br>
+        실종된 사람들의 행방을 쫓아 모든 일의 배후를 조사하세요.<br>
         최종보스 LIA를 무찔러 납치된 사람들을 리리트와 함께 구해야 합니다
       </div>
     </div>
@@ -434,7 +434,7 @@ member:
         <div class="character-card"><img src="asset/U_1.png" alt="Character 1"><h3>유</h3><p>유는 게임 속 캐릭터 리리트와<br> 함께 모험을 떠나는<br>리마인드 라미아의 주인공입니다</p></div>
         <div class="character-card"><img src="asset/lilit.png" alt="Character 2"><h3>리리트</h3><p>고전 게임 라미아 어드벤쳐의<br>주인공인 리리트는 유가 있는<br>세상이 위험에 처한걸 느끼고<br>현실로 나와 유와 함께<br>모험을 하게됩니다</p></div>
         <div class="character-card"><img src="asset/LIA.png" alt="Character 3"><h3>LIA</h3><p>라미아 어드벤쳐 3D를<br>관리하는 AI였습니다.<br>어느 순간 LIA가 게임의 통제권을 갖게되고,<br>플레이한 사람들이 납치되는<br>이상한 현상이 일어나게 됩니다</p></div>
-        <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>버스정류장의 아저씨</h3><p>이 NPC는 언뜻 보기에 평범해 보이지만...<br>관리형 AI의 도입으로 인해<br>게임회사에서 정리해고를 당한<br>슬픈 사연을 갖고 있습니다</p></div>
+        <div class="character-card"><img src="asset/BusMan.png" alt="Character 4"><h3>버스정류장의 아저씨</h3><p>이 NPC는 언뜻 보기에<br>평범해 보이지만...<br>관리형 AI의 도입으로 인해<br>게임회사에서 정리해고를 당한<br>슬픈 사연을 갖고 있습니다</p></div>
         <div class="character-card"><img src="asset/Pikmin.png" alt="Character 5"><h3>미니 라미안</h3><p>원래는 라미아 어드벤쳐 3D 속<br>캐릭터 중 하나였지만,<br>실종된 사람들이 점점<br>미니 라미안들의 모습으로<br>변해가고 있습니다</p></div>
         <div class="character-card"><img src="asset/Monster.png" alt="Character 6"><h3>도서관의 괴물</h3><p>오염된 라미아 어드벤쳐 3D의<br>영향으로 학교 도서관에서 생겨난<br>끔찍한 존재입니다.<br>리리트와 유가 사람들을 구하는데<br>방해하게 됩니다</p></div>
       </div>
