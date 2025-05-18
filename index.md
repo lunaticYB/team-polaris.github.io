@@ -318,7 +318,8 @@ member:
         고전 게임인 <strong>라미아 어드벤쳐</strong>의 리메이크작 <strong>라미아 어드벤쳐 3D</strong>가 현대에서 큰 인기를 끌던 중,<br>
         게임을 플레이한 사람들이 차례로 실종되는 기묘한 사건이 벌어집니다.<br>
         고전 게임을 좋아하던 <strong>유</strong>는, 라미아 어드벤쳐의 용사이자 주인공인 <strong>리리트</strong>와 함께<br>
-        현실과 가상이 뒤엉킨 세계의 비밀을 파헤치고, 위기에 빠진 세상을 구하기 위한 여정을 떠나게 됩니다.
+        현실과 가상이 뒤엉킨 세계의 비밀을 파헤치고,<br> 
+        위기에 빠진 세상을 구하기 위한 여정을 떠나게 됩니다.
       </div>
     </div>
   </header>
@@ -443,9 +444,9 @@ member:
 
   <section class="team-section">
     <h2>Team Members</h2>
-    <div class="team-member"><strong>김예린</strong> - 아트, 애니메이션 담당</div>
-    <div class="team-member"><strong>김예빈</strong> - 게임 기획 담당</div>
-    <div class="team-member"><strong>권경현</strong> - 프로그래밍 및 구현 담당</div>
+    <div class="team-member"><strong>김예린</strong> - 팀장, 3D/2D 디자인 기획 및 제작, 언리얼 컷씬 기획 및 총 제작, 캐릭터 디자인 ,애니메이팅 ,부스 기획</div>
+    <div class="team-member"><strong>김예빈</strong> - 시나리오, 스크립트, 게임 컨셉, 맵 구조, 퍼즐/시스템 기획, 사운드, 연출, 컷씬, 트레일러 및 일부 영상 에셋 제작</div>
+    <div class="team-member"><strong>권경현</strong> - 유니티 프로그래밍 및 구현 담당</div>
   </section>
 
   <footer>
