@@ -108,6 +108,37 @@ member:
       align-items: center;
       flex-direction: column;
       text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .header-text {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+    }
+
+    .intro-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 40px auto;
+      max-width: 1000px;
+      flex-wrap: wrap;
+      color: white;
+    }
+
+    .intro-rotated {
+      transform: rotate(-90deg);
+      font-weight: bold;
+      white-space: nowrap;
+      font-size: 16px;
+    }
+
+    .intro-text {
+      max-width: 600px;
+      line-height: 1.7;
+      font-size: 15px;
     }
 
     header img {
@@ -267,6 +298,18 @@ member:
 <body>
   <header>
     <img src="./asset/main.png" alt="Game Title">
+    <div class="header-text">
+      <h1>리마인드 라미아</h1>
+    </div>
+    <div class="intro-container">
+      <div class="intro-rotated"><strong>“게임 속 주인공과 함께, 현실과 가상을 구하는 모험이 시작된다.”</strong></div>
+      <div class="intro-text">
+        고전 게임인 <strong>라미아 어드벤쳐</strong>의 리메이크작 <strong>라미아 어드벤쳐 3D</strong>가 현대에서 큰 인기를 끌던 중,<br>
+        게임을 플레이한 사람들이 차례로 실종되는 기묘한 사건이 벌어집니다.<br>
+        고전 게임을 좋아하던 <strong>유</strong>는, 라미아 어드벤쳐의 용사이자 주인공인 <strong>리리트</strong>와 함께<br>
+        현실과 가상이 뒤엉킨 세계의 비밀을 파헤치고, 위기에 빠진 세상을 구하기 위한 여정을 떠나게 됩니다.
+      </div>
+    </div>
   </header>
 
   <section class="section">
